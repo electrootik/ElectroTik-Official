@@ -36,6 +36,13 @@
 
 اما چرا چند لوگوی متفاوت؟
 
+<img src="electrotik-logo-01.png" alt="ElectroTik Logo 1" width="200">
+<img src="electrotik-logo-02.png" alt="ElectroTik Logo 2" width="200">
+<img src="electrotik-logo-03.png" alt="ElectroTik Logo 3" width="200">
+<img src="electrotik-logo-04.png" alt="ElectroTik Logo 4" width="200">
+<img src="electrotik-logo-05.png" alt="ElectroTik Logo 5" width="200">
+<img src="electrotik-logo-06.png" alt="ElectroTik Logo 6" width="200">
+
 ✔ دلیل اصلی: ساختار زیرمجموعه‌های حرفه‌ای  
 افرادی که مسیر آموزشی الکتروتیک را تا سطح حرفه‌ای و قابل‌تأیید مجموعه طی می‌کنند و توانایی همکاری با الکتروتیک را به‌دست می‌آورند، می‌توانند تحت شرایط مشخص، به‌عنوان زیرمجموعهٔ رسمی الکتروتیک فعالیت کنند.
 
