@@ -34,14 +34,13 @@
 ⭐ سیستم لوگوهای انحصاری الکتروتیک
 یکی از ویژگی‌های منحصربه‌فرد الکتروتیک، وجود چندین لوگوی رسمی و ثبت‌شده است که همگی تحت مالکیت مجموعه هستند.
 
-اما چرا چند لوگوی متفاوت؟
-<p align="center">
-  <img src="electrotik-logo-01.png" width="180">
-  <img src="electrotik-logo-02.png" width="180">
-  <img src="electrotik-logo-03.png" width="180">
-  <img src="electrotik-logo-04.png" width="180">
-  <img src="electrotik-logo-05.png" width="180">
-  <img src="electrotik-logo-06.png" width="180">
+اما چرا چند لوگوی متفاوت؟<p align="center">
+  <img src="electrotik-logo-01.png" width="200">
+  <img src="electrotik-logo-02.png" width="200">
+  <img src="electrotik-logo-03.png" width="200">
+  <img src="electrotik-logo-04.png" width="200">
+  <img src="electrotik-logo-05.png" width="200">
+  <img src="electrotik-logo-06.png" width="200">
 </p>
 ✔ دلیل اصلی: ساختار زیرمجموعه‌های حرفه‌ای  
 افرادی که مسیر آموزشی الکتروتیک را تا سطح حرفه‌ای و قابل‌تأیید مجموعه طی می‌کنند و توانایی همکاری با الکتروتیک را به‌دست می‌آورند، می‌توانند تحت شرایط مشخص، به‌عنوان زیرمجموعهٔ رسمی الکتروتیک فعالیت کنند.
