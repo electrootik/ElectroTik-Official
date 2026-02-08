@@ -1,5 +1,5 @@
 ⚡ الکتروتیک ✔️ تفکر نوین
-electrotik-logo-official.png
+<img src="electrotik-logo-official.png" alt="ElectroTik Logo" width="300">
 از آموزش تا اجرا؛ مهارت واقعی، نتیجه واقعی
 
 ⭐ الکتروتیک چیست؟
