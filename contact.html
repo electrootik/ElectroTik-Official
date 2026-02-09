@@ -1,32 +1,108 @@
 <!DOCTYPE html>
 <html lang="fa">
 <head>
-  <meta charset="UTF-8">
-  <title>تماس با الکتروتیک | ElectroTik Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تماس با ما | ElectroTik</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            direction: rtl;
+            background: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            margin-top: 0;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 15px;
+        }
+
+        button {
+            margin-top: 20px;
+            width: 100%;
+            padding: 12px;
+            background: #0078ff;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #005fcc;
+        }
+
+        #comments {
+            margin-top: 40px;
+        }
+    </style>
 </head>
+
 <body>
-  <h1>تماس با الکتروتیک</h1>
-  <p>برای تماس با مجموعه الکتروتیک، از راه‌های زیر استفاده کنید:</p>
 
-  <ul>
-    <li>شماره تماس مستقیم: 09126494328</li>
-    <li>ایمیل: <a href="mailto:electrootiik@gmail.com">electrootiik@gmail.com</a></li>
-    <li>کانال یوتیوب ElectroTik:
-      <a href="https://www.youtube.com/@ElectroTik-n3w" target="_blank">مشاهده در یوتیوب</a>
-    </li>
-    <li>مخزن رسمی GitHub (Reza Barghi Official):
-      <a href="https://github.com/Reza-Barghi-Official" target="_blank">مشاهده در GitHub</a>
-    </li>
-  </ul>
+    <div class="container">
+        <h1>تماس با ElectroTik</h1>
 
-  <h2>فرم تماس مستقیم با الکتروتیک</h2>
-  <p>برای ارسال پیام، روی لینک زیر کلیک کنید:</p>
-  <p>
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf3Ytol2zJSi2MuWaHe4SXErkd6CiN-5mnZKWbIq2W2XEIfaA/viewform?usp=publish-editor" target="_blank">
-      ارسال پیام از طریق فرم تماس
-    </a>
-  </p>
+        <p>برای ارتباط با ما، فرم زیر را تکمیل کنید:</p>
 
-  <p>به‌زودی بخش نظرات و امکانات بیشتری به این صفحه اضافه خواهد شد.</p>
+        <label>نام</label>
+        <input type="text" placeholder="نام شما">
+
+        <label>ایمیل</label>
+        <input type="email" placeholder="example@mail.com">
+
+        <label>پیام</label>
+        <textarea rows="5" placeholder="متن پیام شما"></textarea>
+
+        <button>ارسال پیام</button>
+
+        <!-- بخش نظرات Giscus -->
+        <div id="comments"></div>
+
+        <script src="https://giscus.app/client.js"
+                data-repo="electrootik/ElectroTik-Official"
+                data-repo-id="R_kgDORLiAwA"
+                data-category="General"
+                data-category-id="DIC_kwDORLiAwM4C2HLi"
+                data-mapping="pathname"
+                data-strict="0"
+                data-reactions-enabled="1"
+                data-emit-metadata="0"
+                data-input-position="bottom"
+                data-theme="preferred_color_scheme"
+                data-lang="fa"
+                crossorigin="anonymous"
+                async>
+        </script>
+
+    </div>
+
 </body>
 </html>
