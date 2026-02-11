@@ -1,295 +1,587 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ElectroTik | الکتروتیک | تفکر نوین از آموزش تا اجرا</title>
-  <meta name="description" content="الکتروتیک ✔️ نماد تفکر | سیستم حرفه‌ای پرورش متخصص برق صنعتی، با مدیریت رضا برقی (رضا احمدی)؛ آموزش پروژه‌محور، اتوماسیون، تابلو برق و برق صنعتی از آموزش تا اجرا.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>الکتروتیک ✔️ نماد تفکر | ElectroTik Official</title>
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="shortcut icon" href="favicon.png">
+  <!-- توضیحات سئو -->
+  <meta name="description" content="الکتروتیک ✔️ نماد تفکر | آموزش تخصصی برق صنعتی، اتوماسیون، تابلو برق، پروژه‌های صنعتی و نقشه‌کشی حرفه‌ای با مدیریت رضا احمدی (رضا برقی، رضا ادیسون)." />
+  <meta name="keywords" content="الکتروتیک, ElectroTik, رضا برقی, رضا احمدی, رضا ادیسون, برق صنعتی, آموزش برق صنعتی, اتوماسیون, تابلو برق, نقشه برق صنعتی, پروژه صنعتی" />
+  <meta name="author" content="Reza Ahmadi (Reza Barghi, Reza Edison)" />
 
+  <!-- آیکون سایت -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <!-- فونت ساده -->
   <style>
-    body {
-      font-family: sans-serif;
-      direction: rtl;
-      background: #f5f5f5;
-      margin: 0;
-      padding: 0;
-      line-height: 1.9;
+    @font-face {
+      font-family: "Vazir";
+      src: local("Vazir");
     }
 
-    .container {
-      max-width: 1000px;
-      margin: 30px auto 40px;
-      background: #ffffff;
-      padding: 30px 20px 40px;
-      border-radius: 14px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.08);
-    }
-
-    h1, h2, h3 {
-      text-align: center;
-      margin-bottom: 18px;
-    }
-
-    h1 {
-      font-size: 26px;
-    }
-
-    h2 {
-      font-size: 22px;
-    }
-
-    h3 {
-      font-size: 19px;
-    }
-
-    p {
-      text-align: justify;
-      margin: 8px 0;
-    }
-
-    .logo {
-      width: 260px;
-      display: block;
-      margin: 20px auto;
-    }
-
-    .section-title {
-      font-size: 20px;
-      font-weight: bold;
-      margin-top: 35px;
-      margin-bottom: 12px;
-      text-align: center;
-    }
-
-    .sub {
-      font-size: 15px;
-      text-align: center;
-      color: #555;
-      margin-bottom: 10px;
-    }
-
-    .slogan {
-      font-size: 17px;
-      text-align: center;
-      color: #222;
-      font-weight: bold;
-      margin-bottom: 20px;
-    }
-
-    .highlight-box {
-      background: #fafafa;
-      border-radius: 10px;
-      padding: 15px 18px;
-      margin-top: 10px;
-      border: 1px solid #eee;
-    }
-
-    .gallery-box {
-      background: #f9f9f9;
-      padding: 18px;
-      border-radius: 12px;
-      margin-top: 30px;
-      text-align: center;
-      border: 1px solid #e5e5e5;
-    }
-
-    .gallery-box a {
-      display: inline-block;
-      background: #222;
-      color: #fff;
-      padding: 10px 22px;
-      border-radius: 8px;
-      font-size: 16px;
-      text-decoration: none;
-      font-weight: bold;
-      margin-top: 10px;
-    }
-
-    .contact-box {
-      background: #f0f0f0;
-      padding: 18px;
-      border-radius: 10px;
-      margin-top: 25px;
-    }
-
-    input, textarea {
-      width: 100%;
-      padding: 10px;
-      margin-top: 8px;
-      border-radius: 8px;
-      border: 1px solid #ccc;
-      font-size: 15px;
+    * {
       box-sizing: border-box;
     }
 
-    button {
-      width: 100%;
-      padding: 11px;
-      background: #222;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      margin-top: 12px;
-      font-size: 16px;
-      cursor: pointer;
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Vazir", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #050608;
+      color: #f5f5f5;
+      line-height: 1.8;
     }
 
-    .contact-links a {
-      display: block;
-      text-align: center;
-      font-size: 17px;
-      margin-top: 8px;
-      font-weight: bold;
+    a {
+      color: #ffcc4d;
       text-decoration: none;
     }
 
-    .contact-links a.youtube {
-      color: #e53935;
+    a:hover {
+      text-decoration: underline;
     }
 
-    .contact-links a.whatsapp {
-      color: #0a8f3c;
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 16px;
     }
 
-    .divider {
-      margin: 35px 0 25px;
-      border-top: 1px solid #ddd;
+    header {
+      border-bottom: 1px solid #333;
+      padding: 12px 0 8px 0;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
     }
 
-    .en-section {
-      direction: ltr;
+    .brand-block {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .brand-logo {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      border: 2px solid #ffcc4d;
+      object-fit: cover;
+      background: #111;
+    }
+
+    .brand-text-main {
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+
+    .brand-text-sub {
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+
+    .tagline {
+      font-size: 0.95rem;
+      color: #ffcc4d;
+      font-weight: 600;
       text-align: left;
-      margin-top: 35px;
-      border-top: 1px dashed #ccc;
-      padding-top: 25px;
     }
 
-    .en-section h2, .en-section h3, .en-section h1 {
-      text-align: left;
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 2fr) minmax(0, 1.4fr);
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 24px;
     }
 
-    .en-section p {
-      text-align: left;
+    .hero-main-title {
+      font-size: 1.6rem;
+      font-weight: 800;
+      margin-bottom: 8px;
     }
 
-    .small-note {
-      font-size: 13px;
-      color: #666;
+    .hero-subtitle {
+      font-size: 0.98rem;
+      color: #ddd;
+      margin-bottom: 12px;
+    }
+
+    .hero-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .badge {
+      border-radius: 999px;
+      border: 1px solid #444;
+      padding: 4px 10px;
+      font-size: 0.8rem;
+      color: #ddd;
+      background: #111;
+      white-space: nowrap;
+    }
+
+    .badge-gold {
+      border-color: #ffcc4d;
+      color: #ffcc4d;
+    }
+
+    .hero-cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .btn {
+      border-radius: 999px;
+      padding: 8px 16px;
+      font-size: 0.9rem;
+      border: 1px solid #444;
+      background: #111;
+      color: #f5f5f5;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #ffcc4d, #ff9f1c);
+      color: #111;
+      border-color: #ffcc4d;
+      font-weight: 700;
+    }
+
+    .btn-outline {
+      border-color: #666;
+    }
+
+    .hero-note {
+      font-size: 0.8rem;
+      color: #aaa;
+    }
+
+    .hero-photo-wrapper {
       text-align: center;
-      margin-top: 10px;
+    }
+
+    .hero-photo {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 3px solid #ffcc4d;
+      object-fit: cover;
+      background: #111;
+      margin-bottom: 10px;
+    }
+
+    .hero-name {
+      font-weight: 700;
+      font-size: 1rem;
+    }
+
+    .hero-name-sub {
+      font-size: 0.85rem;
+      color: #ccc;
+    }
+
+    section {
+      margin-bottom: 28px;
+      padding: 16px;
+      border-radius: 12px;
+      background: radial-gradient(circle at top left, #1b1b1b, #050608 55%);
+      border: 1px solid #222;
+    }
+
+    section h2 {
+      margin-top: 0;
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+      border-right: 3px solid #ffcc4d;
+      padding-right: 8px;
+    }
+
+    .two-col {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1.6fr);
+      gap: 18px;
+    }
+
+    .list {
+      margin: 0;
+      padding-right: 18px;
+      font-size: 0.9rem;
+    }
+
+    .list li {
+      margin-bottom: 4px;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      font-size: 0.8rem;
+    }
+
+    .pill {
+      padding: 3px 8px;
+      border-radius: 999px;
+      border: 1px solid #444;
+      color: #ccc;
+    }
+
+    .pill-strong {
+      border-color: #ffcc4d;
+      color: #ffcc4d;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+      font-size: 0.85rem;
+    }
+
+    .project-card {
+      border-radius: 10px;
+      border: 1px solid #333;
+      padding: 10px;
+      background: #0b0c0f;
+    }
+
+    .project-title {
+      font-weight: 700;
+      margin-bottom: 4px;
+      color: #ffcc4d;
+    }
+
+    .project-tagline {
+      font-size: 0.8rem;
+      color: #ccc;
+      margin-bottom: 4px;
+    }
+
+    .project-meta {
+      font-size: 0.78rem;
+      color: #aaa;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 10px;
+    }
+
+    .gallery-item {
+      border-radius: 10px;
+      border: 1px solid #333;
+      background: #050608;
+      padding: 6px;
+      text-align: center;
+      font-size: 0.8rem;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+      background: #111;
+      margin-bottom: 4px;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(0, 1.2fr);
+      gap: 16px;
+      font-size: 0.9rem;
+    }
+
+    .contact-row {
+      margin-bottom: 6px;
+    }
+
+    .contact-label {
+      color: #ccc;
+      font-size: 0.85rem;
+    }
+
+    .qr-box {
+      border-radius: 12px;
+      border: 1px dashed #555;
+      padding: 10px;
+      text-align: center;
+      font-size: 0.8rem;
+    }
+
+    .qr-box img {
+      width: 140px;
+      height: 140px;
+      object-fit: contain;
+      margin-bottom: 6px;
+    }
+
+    .comments-box {
+      border-radius: 10px;
+      border: 1px dashed #444;
+      padding: 10px;
+      font-size: 0.85rem;
+      color: #ccc;
+    }
+
+    footer {
+      border-top: 1px solid #222;
+      padding: 12px 16px 20px 16px;
+      font-size: 0.8rem;
+      color: #888;
+      text-align: center;
+    }
+
+    footer strong {
+      color: #ffcc4d;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      .two-col {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      .contact-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .tagline {
+        text-align: right;
+      }
     }
   </style>
 </head>
-
 <body>
 
-<div class="container">
+  <div class="container">
 
-  <h1>الکتروتیک | ElectroTik</h1>
-  <h2>تفکر نوین؛ از آموزش تا اجرا</h2>
-  <p class="sub">سیستم حرفه‌ای پرورش متخصص برق صنعتی، از دل پروژه‌های واقعی و تجربهٔ میدانی</p>
-  <p class="slogan">الکتروتیک ✔️ نماد تفکر</p>
+    <!-- هدر و برند -->
+    <header>
+      <div class="brand-block">
+        <!-- اینجا لوگوی دایره‌ای طلایی -->
+        <img src="ElectroTik-Official-Logo-Gold-Circle.png" alt="ElectroTik Official Logo" class="brand-logo" />
+        <div>
+          <div class="brand-text-main">ElectroTik Official Repository</div>
+          <div class="brand-text-sub">تفکر نوین | آموزش برق صنعتی، اتوماسیون و تابلو برق</div>
+        </div>
+      </div>
+      <div class="tagline">
+        الکتروتیک ✔️ نماد تفکر
+      </div>
+    </header>
 
-  <img src="electrotik-logo-main.png" class="logo" alt="ElectroTik Main Logo">
+    <!-- سکشن معرفی اصلی -->
+    <section class="hero">
+      <div>
+        <div class="hero-main-title">
+          الکتروتیک ✔️ نماد تفکر در برق صنعتی و اتوماسیون
+        </div>
+        <div class="hero-subtitle">
+          این مخزن رسمی برند ElectroTik است؛ جایی که آموزش، پروژه‌های واقعی، نقشه‌های برق صنعتی و استانداردهای حرفه‌ای در کنار هم جمع شده‌اند تا مسیر یادگیری و کار حرفه‌ای در صنعت برق را شفاف، عملی و قابل اتکا کنند.
+        </div>
 
-  <div class="section-title">الکتروتیک چیست؟</div>
-  <div class="highlight-box">
-    <p><strong>الکتروتیک</strong> یک برند صنعتی، آموزشی و پروژه‌محور است…</p>
-    <p>در الکتروتیک خبری از آموزش‌های تئوریِ صرف نیست…</p>
+        <div class="hero-badges">
+          <span class="badge badge-gold">برند رسمی ElectroTik</span>
+          <span class="badge">آموزش تخصصی برق صنعتی</span>
+          <span class="badge">اتوماسیون و تابلو برق</span>
+          <span class="badge">پروژه‌های واقعی صنعتی</span>
+        </div>
+
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#projects">مشاهده پروژه‌های صنعتی منتخب</a>
+          <a class="btn btn-outline" href="#contact">ارتباط سریع با مدیریت</a>
+        </div>
+
+        <div class="hero-note">
+          این صفحه، نسخهٔ رسمی و مرجع معرفی ElectroTik و فعالیت‌های رضا احمدی (رضا برقی، رضا ادیسون) است.
+        </div>
+      </div>
+
+      <div class="hero-photo-wrapper">
+        <!-- عکس مدیریت -->
+        <img src="Reza-Ahmadi-Official-Photo.jpg" alt="Reza Ahmadi - ElectroTik" class="hero-photo" />
+        <div class="hero-name">مهندس رضا احمدی</div>
+        <div class="hero-name-sub">
+          معروف به رضا برقی | رضا ادیسون<br />
+          مدیر، مؤسس و مدرس ارشد الکتروتیک
+        </div>
+      </div>
+    </section>
+
+    <!-- معرفی مدیریت و فلسفه برند -->
+    <section id="about">
+      <h2>مدیریت، فلسفه برند و رسالت الکتروتیک</h2>
+      <div class="two-col">
+        <div>
+          <p style="font-size:0.9rem; text-align:justify;">
+            الکتروتیک، با مدیریت مهندس رضا احمدی (رضا برقی، رضا ادیسون)، بر پایهٔ یک اصل ساده اما عمیق بنا شده است:
+            <strong>«آموزش باید واقعی، کاربردی، پروژه‌محور و بدون تعارف باشد.»</strong>
+            این برند، حاصل سال‌ها تجربه در پروژه‌های ملی، صنعتی و آموزشی است؛ جایی که هر نقشه، هر تابلو و هر خط کد، پشتوانهٔ یک نیاز واقعی در صنعت است.
+          </p>
+          <p style="font-size:0.9rem; text-align:justify;">
+            رسالت الکتروتیک، ساختن یک مرجع قابل اعتماد برای برق صنعتی، اتوماسیون و نقشه‌کشی حرفه‌ای است؛
+            جایی که هنرجو، تکنسین، مهندس و صنعتگر، بتواند به جای سردرگمی در میان اطلاعات پراکنده، یک مسیر شفاف، استاندارد و قابل تکرار را دنبال کند.
+          </p>
+        </div>
+        <div>
+          <ul class="list">
+            <li>مدیریت و راهبری پروژه‌های برق صنعتی و اتوماسیون در سطح کارخانجات و خطوط تولید</li>
+            <li>طراحی و ترسیم نقشه‌های برق صنعتی با استانداردهای حرفه‌ای و قابل اجرا در صنعت</li>
+            <li>آموزش گام‌به‌گام، پروژه‌محور و بدون حاشیه برای علاقه‌مندان و فعالان حوزه برق</li>
+            <li>ایجاد یک اکوسیستم حرفه‌ای برای همکاری، رشد و اجرای پروژه‌های مشترک</li>
+          </ul>
+          <div class="pill-row" style="margin-top:6px;">
+            <span class="pill pill-strong">الکتروتیک ✔️ نماد تفکر</span>
+            <span class="pill">علم + تجربه + اجرا</span>
+            <span class="pill">استاندارد، دقیق، قابل تکرار</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- پروژه‌های شاخص -->
+    <section id="projects">
+      <h2>پروژه‌های شاخص و اعتماد ملی به الکتروتیک</h2>
+      <p style="font-size:0.9rem; margin-bottom:10px;">
+        بخشی از اعتبار هر برند فنی، در پروژه‌هایی است که به آن سپرده شده. الکتروتیک، با افتخار، در کنار مجموعه‌های صنعتی و ملی زیر حضور داشته است:
+      </p>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-title">ایران‌خودرو</div>
+          <div class="project-tagline">پروژه‌های برق صنعتی و اتوماسیون در خطوط تولید</div>
+          <div class="project-meta">
+            طراحی، عیب‌یابی و بهینه‌سازی تابلوها و سیستم‌های کنترلی در محیط‌های حساس و پیوسته.
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-title">هپکو اراک</div>
+          <div class="project-tagline">راهکارهای برق صنعتی در ماشین‌آلات سنگین</div>
+          <div class="project-meta">
+            مشارکت در پروژه‌های تعمیر، ارتقا و استانداردسازی سیستم‌های برق و کنترل.
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-title">ارم سبز</div>
+          <div class="project-tagline">اتوماسیون و کنترل در صنایع غذایی و بسته‌بندی</div>
+          <div class="project-meta">
+            پیاده‌سازی راهکارهای اتوماسیون با تمرکز بر پایداری، ایمنی و کاهش توقف خط.
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-title">پودر ایران</div>
+          <div class="project-tagline">سیستم‌های برق صنعتی در محیط‌های خاص و حساس</div>
+          <div class="project-meta">
+            طراحی و اصلاح تابلوها، حفاظت‌ها و مدارهای کنترلی با رویکرد ایمنی و دوام.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- گالری نقشه‌ها و پروژه‌های برق صنعتی -->
+    <section id="gallery">
+      <h2>گالری نقشه‌ها و پروژه‌های برق صنعتی ترسیم شده توسط رضا احمدی</h2>
+      <p style="font-size:0.9rem; margin-bottom:10px;">
+        این بخش، ویترین بخشی از نقشه‌ها، تابلوها و پروژه‌های واقعی است که توسط مهندس رضا احمدی طراحی، اجرا یا بازطراحی شده‌اند. هر تصویر، نمایندهٔ یک تجربهٔ واقعی در صنعت است.
+      </p>
+      <div class="gallery-grid">
+        <!-- فقط نام فایل‌ها را با نام واقعی عکس‌هایت عوض کن -->
+        <div class="gallery-item">
+          <img src="Project-Panel-01.png" alt="تابلو برق صنعتی - پروژه ۱" />
+          <div>تابلو برق صنعتی - پروژه ۱</div>
+        </div>
+        <div class="gallery-item">
+          <img src="Project-Panel-02.png" alt="تابلو برق صنعتی - پروژه ۲" />
+          <div>تابلو برق صنعتی - پروژه ۲</div>
+        </div>
+        <div class="gallery-item">
+          <img src="Industrial-Schematic-01.png" alt="نقشه برق صنعتی - نمونه ۱" />
+          <div>نقشه برق صنعتی - نمونه ۱</div>
+        </div>
+        <div class="gallery-item">
+          <img src="Industrial-Schematic-02.png" alt="نقشه برق صنعتی - نمونه ۲" />
+          <div>نقشه برق صنعتی - نمونه ۲</div>
+        </div>
+      </div>
+      <p style="font-size:0.8rem; color:#aaa; margin-top:8px;">
+        این گالری به‌مرور با پروژه‌های جدید، نقشه‌های بیشتر و توضیحات فنی تکمیل خواهد شد.
+      </p>
+    </section>
+
+    <!-- راه‌های ارتباطی و لینک‌های رسمی -->
+    <section id="contact">
+      <h2>راه‌های ارتباطی رسمی و لینک‌های معتبر الکتروتیک</h2>
+      <div class="contact-grid">
+        <div>
+          <div class="contact-row">
+            <div class="contact-label">ایمیل رسمی:</div>
+            <div><a href="mailto:electrootik@gmail.com">electrootik@gmail.com</a></div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-label">کانال یوتیوب (آموزش و پروژه):</div>
+            <div><a href="https://www.youtube.com/@ElectroTik" target="_blank">youtube.com/@ElectroTik</a></div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-label">واتساپ (ارتباط سریع):</div>
+            <div><a href="https://wa.me/98912XXXXXXX" target="_blank">ارسال پیام در واتساپ</a></div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-label">گیت‌هاب رسمی:</div>
+            <div><a href="https://github.com/electrootik" target="_blank">github.com/electrootik</a></div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-label">این مخزن:</div>
+            <div><code>ElectroTik-Official</code> | مرجع رسمی برند الکتروتیک در گیت‌هاب</div>
+          </div>
+        </div>
+        <div>
+          <div class="qr-box">
+            <!-- اینجا QR کد تماس یا سایت -->
+            <img src="ElectroTik-QR-Contact.png" alt="ElectroTik QR" />
+            <div>اسکن QR برای دسترسی سریع به راه‌های ارتباطی و سایت رسمی الکتروتیک.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- بخش نظرات / کامنت‌ها (قابل اتصال به سرویس دلخواه) -->
+    <section id="comments">
+      <h2>نظرات، پیشنهادها و همکاری‌های حرفه‌ای</h2>
+      <div class="comments-box">
+        این بخش می‌تواند به سرویس کامنت‌گذاری دلخواه شما (مانند CommentBox، Giscus یا هر سیستم دیگر) متصل شود.
+        <br />
+        تا زمان راه‌اندازی سیستم نظرات، می‌توانید از طریق ایمیل یا واتساپ پیام ارسال کنید و موضوع همکاری، پروژه یا سؤال آموزشی خود را مطرح نمایید.
+      </div>
+    </section>
+
   </div>
 
-  <img src="electrotik-logo-01.png" class="logo">
-
-  <div class="section-title">مدیریت و بنیان‌گذار الکتروتیک</div>
-  <p style="text-align:center;"><strong>رضا برقی (رضا احمدی)</strong></p>
-  <p style="text-align:center;">متولد ۱۹ شهریور ۱۳۶۹ – تهران</p>
-
-  <img src="IMG_20220514_003042_671.jpg" class="logo">
-
-  <p><strong>رضا برقی</strong> یکی از شناخته‌شده‌ترین متخصصان برق صنعتی در ایران است…</p>
-
-  <div class="highlight-box">
-    <h3 style="text-align:right; margin-top:0;">القاب رضا برقی</h3>
-    <ul>
-      <li>رضا برقی</li>
-      <li>رضا ادیسون</li>
-    </ul>
-  </div>
-
-  <img src="electrotik-logo-02.png" class="logo">
-
-  <div class="section-title">فلسفهٔ شکل‌گیری الکتروتیک</div>
-  <p style="text-align:center; font-weight:bold;">«پرورش متخصص واقعی برق صنعتی…»</p>
-
-  <ul>
-    <li>آموزش پروژه‌محور</li>
-    <li>آموزش کاربردی</li>
-    <li>آموزش بدون حاشیه</li>
-  </ul>
-
-  <img src="electrotik-logo-03.png" class="logo">
-
-  <div class="section-title">پروژه‌های مهم و ملی</div>
-  <div class="highlight-box">
-    <ul>
-      <li>ایران‌خودرو</li>
-      <li>ارم سبز</li>
-      <li>هپکو اراک</li>
-      <li>پودر ایران</li>
-      <li>پروژه‌های متعدد در سراسر کشور</li>
-    </ul>
-  </div>
-
-  <img src="electrotik-logo-04.png" class="logo">
-
-  <div class="gallery-box">
-    <h2>گالری پروژه‌های برق صنعتی</h2>
-    <a href="projects.html">مشاهده گالری</a>
-  </div>
-
-  <img src="electrotik-logo-05.png" class="logo">
-
-  <div class="section-title">ارتباط سریع</div>
-
-  <img src="whatsapp-qr.png" class="logo">
-
-  <div class="contact-links">
-    <a href="https://wa.me/989126494328" class="whatsapp">واتساپ</a>
-    <a href="https://www.youtube.com/@ElectroTik-n3w" class="youtube">یوتیوب</a>
-  </div>
-
-  <div class="section-title">فرم تماس</div>
-  <div class="contact-box">
-    <form action="https://formspree.io/f/xreabnwy" method="POST">
-      <input type="text" name="name" placeholder="نام شما" required>
-      <input type="email" name="email" placeholder="ایمیل شما" required>
-      <textarea name="message" rows="5" placeholder="پیام شما" required></textarea>
-      <button type="submit">ارسال پیام</button>
-    </form>
-  </div>
-
-  <img src="electrotik-logo-06.png" class="logo">
-
-  <div class="section-title">نظرات</div>
-  <script src="https://giscus.app/client.js"
-        data-repo="electrootik/ElectroTik-Official"
-        data-repo-id="R_kgDOLkY3Ww"
-        data-category="General"
-        data-category-id="DIC_kwDOLkY3W84Ck5yW"
-        data-mapping="pathname"
-        data-reactions-enabled="1"
-        data-input-position="bottom"
-        data-theme="light"
-        data-lang="fa"
-        crossorigin="anonymous"
-        async>
-  </script>
-
-</div>
+  <footer>
+    <div>
+      <strong>الکتروتیک ✔️ نماد تفکر</strong> — برند رسمی آموزش و اجرای پروژه‌های برق صنعتی، اتوماسیون و تابلو برق.
+    </div>
+    <div style="margin-top:4px;">
+      مدیریت: مهندس رضا احمدی (رضا برقی، رضا ادیسون) — این صفحه به عنوان مرجع رسمی معرفی برند و فعالیت‌ها در گیت‌هاب ثبت شده است.
+    </div>
+  </footer>
 
 </body>
 </html>
